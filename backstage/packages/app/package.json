@@ -7,8 +7,8 @@
     "role": "frontend"
   },
   "scripts": {
-    "start": "backstage-cli package start",
-    "build": "backstage-cli package build",
+    "start": "node init && backstage-cli package start",
+    "build": "node init && backstage-cli package build",
     "clean": "backstage-cli package clean",
     "test": "backstage-cli package test",
     "lint": "backstage-cli package lint"
